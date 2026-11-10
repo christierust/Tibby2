@@ -1,4 +1,12 @@
-## TIBBY Central BLE application
-## Requirements:
-Install the required python packages using "pip install [package name]".
-Then run the script. The script will search for the peripheral device and connect to it, then begin requesting audio data from it for ~15s. The question to AI needs to be asked during that 15s window.
+﻿# Tibby2
+
+The Python demos, audio files, and original documentation are in [`tibby/`](tibby/).
+
+Run scripts from that folder so relative audio paths resolve there:
+
+```sh
+cd tibby
+python tibby_central.py
+```
+
+See the [original README](tibby/readme.md) for setup and usage notes.
